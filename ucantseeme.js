@@ -18,10 +18,9 @@ var Voldemort = function () {
     img.src = voldemort_data;
     img.style.width = '400px';
     img.style.height = '500px';
-    img.style.transform = 'swing 10s ease';
+    img.style.transition = '10s all';
     img.style.position = 'fixed';
     img.style.left = 'calc(50% - 200px)';
-    img.style.right = '5%';
     img.style.bottom = '-200px';
     img.style.zIndex = 999999;
 
