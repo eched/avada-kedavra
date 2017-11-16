@@ -18,21 +18,12 @@ var Voldemort = function () {
   img.src = voldemort_data;
   img.style.width = '400px';
   img.style.height = '500px';
-  img.style.transition = 'swing 4s ease';
+  img.style.transition = 'swing 5s ease';
   img.style.position = 'fixed';
-  img.style.right = '20px';
+  img.style.left = 'calc(50% - 200px)';
   img.style.zIndex = 999999;
 
   document.body.appendChild(img);
-
-  window.setTimeout(function () {
-    img.style.right = '0px';
-  }, 30);
-
-  window.setTimeout(function () {
-    img.style.right = '-600px';
-  }, 10300);
-
 }
 
 var Voldemort_trigger = function (data) {
