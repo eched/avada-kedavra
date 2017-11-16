@@ -1,4 +1,2 @@
-## Based on
-
- this amazing [thing](https://github.com/WeiChiaChang/ucantseeme).
+ Based on this amazing [thing](https://github.com/WeiChiaChang/ucantseeme).
 
