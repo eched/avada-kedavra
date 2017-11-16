@@ -1,4 +1,4 @@
-var voldemort_data = 'https://eched.github.io/avada-kedavra/img/Voldemortawesome.png';
+var voldemort_data = 'https://eched.github.io/avada-kedavra/img/johncenaawesome.png';
 var voldemort_gif = 'https://eched.github.io/avada-kedavra/img/voldemort.gif';
 var voldemort_bg = document.createElement('div');
 
