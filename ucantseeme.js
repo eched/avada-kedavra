@@ -22,10 +22,6 @@ var Voldemort = function () {
     img.style.left = 'calc(96% - 200px)';
     img.style.bottom = '0px';
     img.style.zIndex = 999999;
-    img.style.animate({ left: 50 }, 50);
-    img.style.animate({ left: 20 }, 50);
-    img.style.animate({ left: 50 }, 50);
-
 
     document.body.appendChild(img);
 
