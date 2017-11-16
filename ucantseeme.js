@@ -12,17 +12,17 @@ preloadImg(voldemort_gif);
 
 var Voldemort = function () {
 
-  var shock = document.createElement('div');
-  var img = new Image();
-  
-  img.src = voldemort_data;
-  img.style.width = '400px';
-  img.style.height = '500px';
-  img.style.transition = 'swing 5s ease';
-  img.style.position = 'fixed';
-  img.style.left = 'calc(50% - 200px)';
-  img.style.bottom = '-200px';
-  img.style.zIndex = 999999;
+    var shock = document.createElement('div');
+    var img = new Image();
+    
+    img.src = voldemort_data;
+    img.style.width = '400px';
+    img.style.height = '500px';
+    img.style.transition = '10s all';
+    img.style.position = 'fixed';
+    img.style.left = 'calc(50% - 200px)';
+    img.style.bottom = '-200px';
+    img.style.zIndex = 999999;
 
     document.body.appendChild(img);
 
@@ -34,8 +34,7 @@ var Voldemort = function () {
       img.style.bottom = '-600px';
     }, 10300);
 
-  document.body.appendChild(img);
-}
+  }
 
 var Voldemort_trigger = function (data) {
   Voldemort();
