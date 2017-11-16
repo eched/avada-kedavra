@@ -21,7 +21,18 @@ var Voldemort = function () {
   img.style.transition = 'swing 5s ease';
   img.style.position = 'fixed';
   img.style.left = 'calc(50% - 200px)';
+  img.style.bottom = '-200px';
   img.style.zIndex = 999999;
+
+    document.body.appendChild(img);
+
+    window.setTimeout(function () {
+      img.style.bottom = '0px';
+    }, 30);
+
+    window.setTimeout(function () {
+      img.style.bottom = '-600px';
+    }, 10300);
 
   document.body.appendChild(img);
 }
