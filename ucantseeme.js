@@ -16,22 +16,21 @@ var Voldemort = function () {
     var img = new Image();
     
     img.src = voldemort_data;
-    img.style.width = '400px';
+		img.style.width = '400px';
     img.style.height = '500px';
+    img.style.transition = 'all .75s';
     img.style.position = 'fixed';
-    img.style.left = 'calc(96% - 200px)';
+    img.style.left = 'calc(90% + 150px)';
     img.style.bottom = '0px';
-    img.style.zIndex = 999999;
+    img.style.zIndex = 99999;
 
     document.body.appendChild(img);
-
+   
     window.setTimeout(function () {
-      img.style.right = '0px';
-    }, 30);
+     img.style.left = '800px';
+   }, 500);
 
-    window.setTimeout(function () {
-      img.style.right = '-600px';
-    }, 10300);
+}
 
   }
 
