@@ -32,8 +32,6 @@ var Voldemort = function () {
 
 }
 
-  }
-
 var Voldemort_trigger = function (data) {
   Voldemort();
 };
