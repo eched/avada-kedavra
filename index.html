@@ -29,6 +29,30 @@
   margin-right: auto;
   max-width: 80%;
 }
+    
+    .logo {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+	transform: translateY(0px);
+	animation: float 7s ease-in-out infinite;
+}
+
+.logo img{
+  width: calc(95% - 10px); height: auto;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(25px);
+	}
+100% {
+		transform: translateY(0px);
+	}
+}
 
 html {
   background: url("https://eched.github.io/avada-kedavra/img/castlebg.png") no-repeat center center fixed;
@@ -43,11 +67,15 @@ html {
 
 <body>
 
-  <div class="row">
+ <div class="row">
     <div class="col">
       <img src="https://eched.github.io/avada-kedavra/img/voldy.png">
     </div>
-</div>
+    <div class="logo">
+      <img src="https://eched.github.io/avada-kedavra/img/hp_logo.png">
+    </div>
+  </div>
+  
   <script src="./hptheme.js"></script>
   <script src="./ucantseeme.js"></script>
 
